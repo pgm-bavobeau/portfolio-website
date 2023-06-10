@@ -48,22 +48,27 @@ em {
 @keyframes Color{
   0%{
     color: hsl(36, 99%, 35%);
+    fill: hsl(36, 99%, 35%);
   }
   
   25%{
     color:hsl(36, 99%, 55%);
+    fill:hsl(36, 99%, 55%);
   }
   
   50%{
     color: hsl(36, 99%, 65%);
+    fill: hsl(36, 99%, 65%);
   }
   
   75%{
     color: hsl(36, 99%, 55%);
+    fill: hsl(36, 99%, 55%);
   }
   
   100%{
     color:hsl(36, 99%, 35%);
+    fill:hsl(36, 99%, 35%);
   }
 }
 /* #endregion */
@@ -115,7 +120,6 @@ main {
 
 .home, .header {
   background-color: var(--blue--dark);
-
 }
 
 .layout__container {
@@ -166,27 +170,49 @@ main {
   position: absolute;
   bottom: 0;
 }
-/* #endregion home */
-
-/* #region about */
-.two__items .column__right {
-  background-color: var(--blue--light);
-  padding: 25px;
-  border-radius: 5px;
-}
 
 .socials {
   display: flex;
-  padding: 0;
+  padding: 50px 0 0 0;
 }
 
 .socials li {
   list-style: none;
-  padding-right: 1rem;
+  display: block;
+  margin-right: 20px;
 }
 
-.socials li:hover .svg {
+.socials li path {
+  transform: scale(1.75);
   fill: var(--white);
+} 
+
+.socials li:hover path {
+  animation: Color 4s linear infinite;
+}
+/* #endregion home */
+
+/* #region about */
+.two__items .column__right {
+  background-color: var(--blue--dark);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.column__right h4,li {
+  color: var(--white);
+}
+
+.socials--about {
+  padding: 20px 0 0 0;
+}
+
+.socials--about li path {
+  fill: var(--white);
+}
+
+.socials--about li:hover path {
+  fill: var(--orange);
 }
 /* #endregion */
 

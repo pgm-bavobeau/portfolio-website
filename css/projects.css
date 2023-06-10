@@ -1,0 +1,33 @@
+.header {
+  position: static;
+  background-color: transparent;
+  backdrop-filter: blur(6px);
+}
+
+.header__link {
+  color: var(--blue--dark);
+}
+
+.header__link h1 {
+  color: var(--blue--dark);
+} 
+
+.gf {
+  background: url(../img/GentseFeesten.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home {
+  padding-top: 100px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+}
+
+p {
+  padding: 10px 0;
+}
+
+.two__items {
+  padding-bottom: 100px;
+}
