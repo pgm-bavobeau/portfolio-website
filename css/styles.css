@@ -203,6 +203,10 @@ main {
   color: var(--white);
 }
 
+.column__left p {
+  padding: 10px 0;
+}
+
 .socials--about {
   padding: 20px 0 0 0;
 }
