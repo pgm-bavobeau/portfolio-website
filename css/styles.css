@@ -1,10 +1,293 @@
+/* #region colors */
+:root {
+  --blue--dark: hsl(226, 60%, 10%);
+  --blue: hsl(218, 100%, 16%);
+  --blue--light: hsl(193, 80%, 35%);
+  --orange: hsl(36, 99%, 47%);
+  --white: hsl(20, 60%, 99%);
+}
+/* #endregion */
+
+/* #region typography */
+* {
+  color: var(--blue--dark);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  font-size: 1.2rem;
+  color: var(--blue--dark);
+}
+
+em {
+  color: var(--orange);
+  text-shadow: 3px 3px hsla(0, 0%, 94%, 0.14);
+  animation: Color 4s linear infinite;
+}
+
+@keyframes Color{
+  0%{
+    color: hsl(36, 99%, 35%);
+  }
+  
+  25%{
+    color:hsl(36, 99%, 55%);
+  }
+  
+  50%{
+    color: hsl(36, 99%, 65%);
+  }
+  
+  75%{
+    color: hsl(36, 99%, 55%);
+  }
+  
+  100%{
+    color:hsl(36, 99%, 35%);
+  }
+}
+/* #endregion */
+
+/* #region Header */
 .header {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px 100px;
+  align-items: center;
+  padding: 15px 50px;
+  width: 100%;
+  height: 100px;
 }
 
 .header__list {
   list-style: none;
+  display: flex;
+  gap: 20px;
 }
+
+.header__link {
+  text-decoration: none;
+  color: var(--blue--light);
+  text-shadow: 3px 3px hsla(0, 0%, 94%, 0.14);
+}
+
+.header__link h1 {
+  color: var(--blue--light);
+  text-shadow: 3px 3px hsla(0, 0%, 94%, 0.14);
+}
+
+.header__link:hover, .header__link:hover h1 {
+  color: var(--orange);
+  transition: color 0.5s ease;
+}
+/* #endregion */
+
+/* #region main */
+section {
+  height: 100vh;
+}
+
+main {
+  z-index: -100;
+  background-color: var(--white);
+}
+
+.home, .header {
+  background-color: var(--blue--dark);
+
+}
+
+.layout__container {
+  margin: 0 auto;
+  width: 70vw;
+  height: 100%;
+}
+
+.title__container {
+  padding: 50px 0 30px 0;
+}
+/* #endregion main*/
+
+/* #region Home */
+.home {
+  height: calc(100vh - 100px);
+}
+
+.home__text {
+  color: var(--white);
+}
+
+.two__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+}
+
+.two__items--image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.column__left {
+  width: 50%;
+}
+
+.column__right {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.portret {
+  position: absolute;
+  bottom: 0;
+}
+/* #endregion home */
+
+/* #region about */
+.two__items .column__right {
+  background-color: var(--blue--light);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.socials {
+  display: flex;
+  padding: 0;
+}
+
+.socials li {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.socials li:hover .svg {
+  fill: var(--white);
+}
+/* #endregion */
+
+/* #region card */
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 10px 0;
+  flex-wrap: nowrap;
+}
+
+.card {
+  display: flex;
+  width: 33%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: var(--orange);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  .card__title, .card__synopsis {
+    color: var(--orange);
+  }
+}
+
+.card__link {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card__synopsis {
+  margin-bottom: 10px;
+}
+
+.card__tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__tag {
+  background-color: var(--blue--light);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* #endregion */
+
+/* #region form */
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form__group input, .form__group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form__group textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.btn {
+  background-color: var(--blue--light);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--blue);
+}
+/* #endregion */

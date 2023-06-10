@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Bavo Beaumon - Portfolio</title>
@@ -13,23 +16,147 @@
     <div class="header">
       <div class="header__left">
         <a href="/" class="header__link">
-          <h2>Bavo Beaumon</h2>
+          <h1>Bavo Beaumon</h1>
         </a>
       </div>
       <div class="header__right">
         <ul class="header__list">
           <li>
-            <a href="/projecten" class="header__link">Projecten</a>
+            <a href="#About_Me" class="header__link">About me</a>
           </li>
           <li>
-            <a href="contact" class="header__link">Contact</a>
+            <a href="#My_Projects" class="header__link">Projects</a>
+          </li>
+          <li>
+            <a href="#Contact_Me" class="header__link">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </header>
   <main>
-    
+    <section class="home">
+      <div class="layout__container">
+        <div class="two__items--image">
+          <div class="column__left">
+            <h2 class="home__text">Hi, My name is <em>Bavo Beaumon</em></h2>
+            <h3 class="home__text">I am a student aspiring to become a full-stack developer, passionate about crafting dynamic and user-friendly web applications.</h3>
+            <ul class="links">
+              <li class="link__item"><a href=""><img src="" alt=""></a></li>
+            </ul>
+          </div>
+          <div class="column__right">
+            <div class="portret">
+              <img src="img/waiter-svgrepo-com.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="About_Me">
+      <div class="layout__container">
+        <div class="title__container">
+          <h2>About me</h2>
+        </div>
+        <div class="two__items">
+          <div class="column__left">
+            <p>I am a student aspiring to become a full-stack developer, passionate about crafting dynamic and user-friendly web applications. Throughout my learning journey, I have acquired a solid foundation in HTML, CSS, and JavaScript, along with expertise in React and Node.js.</p>
+            <p>As a perfectionist with keen attention to detail, I strive to create seamless and visually appealing user experiences. I have worked on several projects, which I am proud to showcase on this site. These projects highlight my ability to bring ideas to life and demonstrate my technical proficiency in developing interactive web applications.</p>
+            <p>Although I haven't yet worked in professional industries, I am eagerly looking forward to gaining practical experience through workplace learning next year. This opportunity will allow me to further enhance my skills and apply them to real-world scenarios.</p>
+          </div>
+          <div class="column__right">
+            <h4>Contact info</h4>
+            <ul>
+              <li>Bavo Beaumon</li>
+              <li>student programmeren</li>
+              <li>bavobeau@student.arteveldehs.be</li>
+            </ul>
+            <h4>Programming languages</h4>
+            <ul>
+              <li>HTML</li>
+              <li>css</li>
+              <li>JS</li>
+              <li>Node.js</li>
+              <li>React</li>
+            </ul>
+            <h4>Socials</h4>
+            <ul class="socials">
+              <li><a href=""><img class="svg" src="img/icons8-github.svg" alt="Github"></a></li>
+              <li><a href=""><img src="img/icons8-linkedin.svg" alt="LinkedIn"></a></li>
+              <li><a href=""><img src="img/icons8-instagram.svg" alt="Instagram"></a></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="My_Projects">
+      <div class="layout__container">
+        <div class="title__container">
+          <h2>My Projects</h2>
+          <p>I have worked on several projects, which I am proud to showcase on my portfolio. These projects highlight my ability to bring ideas to life and demonstrate my technical proficiency in developing interactive web applications. Please take a moment to explore my portfolio and delve into the projects I have worked on.</p>
+        </div>
+        <ul class="cards">
+          <li class="card">
+            <a href="link-to-card-1" class="card__link">
+              <img src="/img/GentseFeesten.png" alt="Card 1 Image">
+              <h4 class="card__title">Gentse Feesten 2022</h4>
+              <div class="card__synopsis">Namaken van de GF 2022 website volledig responsive.</div>
+              <div class="card__tags">
+                <div class="card__tag">HTML</div>
+                <div class="card__tag">CSS</div>
+                <div class="card__tag">JS</div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <a href="link-to-card-1" class="card__link">
+              <img src="image1.jpg" alt="Card 1 Image">
+              <h4 class="card__title">Card 1 Title</h4>
+              <div class="card__synopsis">Card 1 Synopsis</div>
+              <div class="card__tags">
+                <div class="card__tag">Tag 1</div>
+                <div class="card__tag">Tag 2</div>
+              </div>
+            </a>
+          </li>
+          <li class="card">
+            <a href="link-to-card-1" class="card__link">
+              <img src="image1.jpg" alt="Card 1 Image">
+              <h4 class="card__title">Card 1 Title</h4>
+              <div class="card__synopsis">Card 1 Synopsis</div>
+              <div class="card__tags">
+                <div class="card__tag">Tag 1</div>
+                <div class="card__tag">Tag 2</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact" id="Contact_Me">
+      <div class="layout__container">
+        <div class="title__container">
+          <h2>Contact Me</h2>
+        </div>
+        <form action="mailto:bavobeau@student.arteveldehs.be" method="post" enctype="text/plain">
+          <div class="form__group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form__group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+          </div>
+          <div class="form__group">
+            <label for="body">Message:</label>
+            <textarea id="body" name="body" required></textarea>
+          </div>
+          <div class="form__group">
+            <input type="submit" value="Send" class="btn">
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
   <footer>
 
