@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* #region colors */
 :root {
   --blue--dark: hsl(226, 60%, 10%);
