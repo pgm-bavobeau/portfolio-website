@@ -164,7 +164,6 @@ main {
 }
 
 .column__right {
-  position: relative;
   width: 50%;
   height: 100%;
 }
@@ -172,6 +171,12 @@ main {
 .portret {
   position: absolute;
   bottom: 0;
+}
+
+.portret img {
+  aspect-ratio: 7 / 5;
+  height: auto;
+  width: 700px
 }
 
 .socials {
