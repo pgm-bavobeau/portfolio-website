@@ -5,7 +5,7 @@ html {
 :root {
   --blue--dark: hsl(226, 60%, 10%);
   --blue: hsl(218, 100%, 16%);
-  --blue--light: hsl(193, 80%, 35%);
+  --blue--light: hsl(220, 72%, 55%);
   --orange: hsl(36, 99%, 47%);
   --white: hsl(20, 60%, 99%);
 }
