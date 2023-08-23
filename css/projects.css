@@ -1,7 +1,8 @@
 .header {
-  position: static;
-  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  background-color: hsl(0, 0%, 0%);
   backdrop-filter: blur(4px);
+  z-index: 100;
 }
 
 .gf {
@@ -11,15 +12,22 @@
 }
 
 .dn {
-  background: url(../img/GentseFeesten.png) no-repeat;
+  background: url(../img/DeNoodcentrale.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.pgm {
+  background: url(../img/PGM-Platform.png) no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
 .home {
-  padding-top: 100px;
+  padding-top: 200px;
   background-color: hsla(0, 0%, 0%, 0.5);
   backdrop-filter: blur(4px);
+  height: 100vh;
 }
 
 .two__items {

@@ -190,13 +190,12 @@ main {
   margin-right: 20px;
 }
 
-.socials li path {
-  transform: scale(1.75);
+.socials li img {
   fill: var(--white);
 } 
 
 .socials li:hover path {
-  animation: Color 4s linear infinite;
+  box-shadow: 0 5px 10px 0 #000;
 }
 /* #endregion home */
 
@@ -213,6 +212,11 @@ main {
 
 .column__left p {
   padding: 10px 0;
+}
+
+.info__link {
+  color: var(--white);
+  font-size: 1rem;
 }
 
 .socials--about {
