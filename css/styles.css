@@ -6,6 +6,7 @@ html {
   --blue--dark: hsl(226, 60%, 10%);
   --blue: hsl(218, 100%, 16%);
   --blue--light: hsl(220, 72%, 55%);
+  --blue--trans: hsla(220, 100%, 55%, 0.5);
   --orange: hsl(36, 99%, 47%);
   --white: hsl(20, 60%, 99%);
 }
@@ -362,4 +363,37 @@ main {
 
 .to-top:hover img {
   filter: invert(60%);
+}
+
+.mid-arrow {
+  position: absolute;
+  left: calc(50% - 75px/2);
+  bottom: 4%;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: var(--blue--trans);
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+}
+
+.mid-arrow img {
+  filter: invert(100%);
+  transform: scale(0.7);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
