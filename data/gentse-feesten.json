@@ -1,0 +1,36 @@
+{
+  "id": "gentse-feesten",
+  "title": "Gentse Feesten 2022",
+  "description": "Voor User Interface Design nam ik de opdracht aan om de Gentse Feesten website te repliceren. Mijn doel is een responsieve website te maken met HTML, CSS en JavaScript.",
+  "badges": ["HTML", "CSS", "JavaScript"],
+  "features": ["Responsive design", "Accessibility-first", "Interactie met JS", "Reproduceerbare layout"],
+  "gallery": ["images/shot1.png", "images/shot2.png"],
+  "process": [
+    {
+      "title": "Analyse & Planning",
+      "text": "Begonnen met structuuronderzoek van de originele site."
+    },
+    {
+      "title": "CSS & Layout",
+      "text": "Nadruk op typografie en grid."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "HTML",
+      "icon": "html5"
+    },
+    {
+      "name": "CSS",
+      "icon": "css3"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/bavo/gentse-feesten",
+    "live": "https://bavo.be/projects/gentse-feesten"
+  }
+}
