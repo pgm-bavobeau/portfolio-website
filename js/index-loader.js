@@ -1,14 +1,18 @@
 fetch("projects.json")
   .then(res => res.json())
   .then(projects => {
-    const container = document.getElementById("project-list");
-    container.innerHTML = projects.map(p => `
-      <a href="project.html?id=${p.id}" class="card">
-        <img src="${p.thumb}" alt="${p.title}" />
-        <h2>${p.title}</h2>
-        <div class="badges">
-          ${p.badges.map(b => `<span class="badge">${b}</span>`).join('')}
+    const container = document.getElementById("projects");
+    const lastSix = projects.slice(-6);
+    container.innerHTML = lastSix.map(p => `
+      <li class="card" data-aos="fade-up">
+      <a href="project.html?id=${p.id}" class="card__link">
+        <img src="${p.thumb}" alt="${p.title}">
+        <h4 class="card__title">${p.title}</h4>
+        <div class="card__synopsis">${p.description}</div>
+        <div class="card__tags">
+        ${p.badges.map(b => `<div class="card__tag">${b}</div>`).join('')}
         </div>
       </a>
+      </li>
     `).join('');
   });
