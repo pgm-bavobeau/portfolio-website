@@ -8,9 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/project.css">
+  <link rel="stylesheet" href="css/projects.css">
   <title id="page-title">Bavo Beaumon</title>
 </head>
 <body>  
@@ -18,93 +19,54 @@
   <header id="top">
     <div class="header">
       <div class="header__left">
-        <a href="#top" class="header__link">
+        <a href="/" class="header__link">
           <h1>Bavo Beaumon</h1>
         </a>
       </div>
       <div class="header__right">
         <ul class="header__list">
           <li>
-            <a href="#About_Me" class="header__link">Over mij</a>
+            <a href="../#About_Me" class="header__link">Over mij</a>
           </li>
           <li>
-            <a href="#My_Projects" class="header__link">Projecten</a>
+            <a href="../#My_Projects" class="header__link">Projecten</a>
           </li>
           <li>
-            <a href="#Contact_Me" class="header__link">Contact</a>
+            <a href="../#Contact_Me" class="header__link">Contact</a>
           </li>
           <li>
-            <a href="CV_Bavo_Beaumon.pdf" class="header__link" target="_blank">CV</a>
+            <a href="../CV_Bavo_Beaumon.pdf" class="header__link" target="_blank">CV</a>
           </li>
         </ul>
       </div>
     </div>
   </header>
   <section class="home">
-    <div class="thumbnail" id="thumbnail">
-      <img src="" alt="">
+    <div class="thumbnail__container" id="thumbnail-container">
+      <img class="thumbnail" src="" alt="" id="thumbnail">
     </div>
-    <div class="layout__container">
-      <div class="two__items--image">
-        <div class="column__left">
-          <h1 class="home__text"><em id="project-title">Gentse Feesten 2022</em></h1>  
-          <br>
-          <div class="card__tags" id="badges"></div>
-          <br>
-          <h3 class="home__text" id="description">Voor User Interface Design nam ik de opdracht aan om de Gentse Feesten website te repliceren. Mijn doel is een responsieve website te maken met HTML, CSS en JavaScript.</h3>
-          <ul class="socials" id="links"></ul>
+    <div class="thumbnail__text">
+      <div class="layout__container">
+        <div class="two__items--image">
+          <div class="column__left">
+            <h1 class="home__text"><em id="project-title"></em></h1>  
+            <br>
+            <div class="card__tags" id="badges"></div>
+            <br>
+            <h3 class="home__text" id="description"></h3>
+            <ul class="socials" id="links"></ul>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="info">
-      <div class="layout__container">
-        <div class="title__container" id="process">
-          <h2>Mijn UI Design Project: Gentse Feesten 2022</h2>
-        </div>
-        <div class="two__items">
-          <div class="column__left">
-            <p>Ik heb met passie en expertise gewerkt aan mijn project voor het vak User Interface Design. De opdracht was om de prachtige Gentse Feesten website na te maken, met volledige responsiviteit en gebruik van moderne technologieën.</p>
-        
-            <h3>Proces en Resultaten</h3>
-        
-            <p>Ik ben gestart met een diepgaande analyse van de originele website, om de structuur en stijl te begrijpen. Vervolgens heb ik met zorg de HTML en CSS geschreven om de pagina's en secties te creëren, waarbij ik de nadruk legde op een heldere navigatie en esthetisch aantrekkelijke vormgeving.</p>
-        
-            <p>Mijn aandacht voor detail kwam tot uiting bij het gebruik van CSS om de visuele aspecten van de originele website te evenaren. Hierbij hield ik rekening met kleuren, typografie en layout. Responsieve CSS-eigenschappen zorgden ervoor dat de site naadloos reageerde op diverse schermformaten.</p>
-        
-            <p>Voor interactiviteit integreerde ik doordacht JavaScript-functionaliteiten zoals de evenementenagenda, filters en zoekmogelijkheden. Deze features zijn geoptimaliseerd voor zowel desktop als mobiel gebruik, waardoor de site dynamisch en toegankelijk blijft.</p>
-        
-            <h3>Gebruikerservaring en Toegankelijkheid</h3>
-        
-            <p>De gebruikerservaring was een cruciaal aspect van mijn werk. Ik heb gezorgd voor een intuïtieve navigatie, duidelijke inhoudsweergave en leesbaarheid. Uitvoerige tests op verschillende apparaten garanderen een consistente en plezierige ervaring voor alle gebruikers.</p>
-        
-            <p>Bij het naleven van de principes van User Interface Design heb ik gezorgd voor consistentie in visuele stijl, begrijpelijk taalgebruik en intuïtieve interactie. Toegankelijkheid stond centraal, met bijvoorbeeld optimale contrastverhoudingen voor leesbaarheid.</p>
-        
-            <h3>Conclusie</h3>
-        
-            <p>Met trots presenteer ik mijn creatie: een volledig namaak van de Gentse Feesten website, gebouwd met liefde voor detail en streven naar uitmuntendheid in User Interface Design. Dit project heeft mijn vaardigheden verrijkt en me verder laten groeien als developer.</p>
-        
-            <p>Bedankt voor uw interesse in mijn werk.</p>
-          </div>
-          <div class="column__right">
-            <h4>technologieën</h4>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Responsief Design</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div id="badges"></div>
-    <p id="description"></p>
-    <div id="gallery" class="gallery"></div>
-    <div id="features"></div>
-    <div id="process"></div>
-    <div id="links"></div>
+  <section class="info" id="process"></section>
+  <section class="gallery" id="gallery"></section>
   </main>
   <script src="js/project-loader.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

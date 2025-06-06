@@ -2,35 +2,29 @@
   "id": "gentse-feesten",
   "title": "Gentse Feesten 2022",
   "description": "Voor User Interface Design nam ik de opdracht aan om de Gentse Feesten website te repliceren. Mijn doel is een responsieve website te maken met HTML, CSS en JavaScript.",
-  "badges": ["HTML", "CSS", "JavaScript"],
-  "features": ["Responsive design", "Accessibility-first", "Interactie met JS", "Reproduceerbare layout"],
-  "gallery": ["images/shot1.png", "images/shot2.png"],
-  "process": [
-    {
-      "title": "Analyse & Planning",
-      "text": "Begonnen met structuuronderzoek van de originele site."
-    },
-    {
-      "title": "CSS & Layout",
-      "text": "Nadruk op typografie en grid."
-    }
-  ],
-  "technologies": [
-    {
-      "name": "HTML",
-      "icon": "html5"
-    },
-    {
-      "name": "CSS",
-      "icon": "css3"
-    },
-    {
-      "name": "JavaScript",
-      "icon": "javascript"
-    }
-  ],
+  "badges": ["HTML", "CSS", "JavaScript"],  
   "links": {
     "github": "https://github.com/bavo/gentse-feesten",
     "live": "https://bavo.be/projects/gentse-feesten"
-  }
+  },
+  "thumbnail": "../img/gentse-feesten/GentseFeesten.png",
+  "process": {
+    "title": "Mijn UI Design Project: Gentse Feesten 2022",
+    "text": "Ik heb met passie en expertise gewerkt aan mijn project voor het vak User Interface Design. De opdracht was om de prachtige Gentse Feesten website na te maken, met volledige responsiviteit en gebruik van moderne technologieën.",
+    "steps": [
+      {
+        "title": "Proces en Resultaten",
+        "text": "Ik ben gestart met een diepgaande analyse van de originele website, om de structuur en stijl te begrijpen. Vervolgens heb ik met zorg de HTML en CSS geschreven om de pagina's en secties te creëren, waarbij ik de nadruk legde op een heldere navigatie en esthetisch aantrekkelijke vormgeving. <br>Mijn aandacht voor detail kwam tot uiting bij het gebruik van CSS om de visuele aspecten van de originele website te evenaren. Hierbij hield ik rekening met kleuren, typografie en layout. Responsieve CSS-eigenschappen zorgden ervoor dat de site naadloos reageerde op diverse schermformaten.<br>Voor interactiviteit integreerde ik doordacht JavaScript-functionaliteiten zoals de evenementenagenda, filters en zoekmogelijkheden. Deze features zijn geoptimaliseerd voor zowel desktop als mobiel gebruik, waardoor de site dynamisch en toegankelijk blijft."
+      },
+      {
+        "title": "Gebruikerservaring en Toegankelijkheid",
+        "text": "De gebruikerservaring was een cruciaal aspect van mijn werk. Ik heb gezorgd voor een intuïtieve navigatie, duidelijke inhoudsweergave en leesbaarheid. Uitvoerige tests op verschillende apparaten garanderen een consistente en plezierige ervaring voor alle gebruikers.<br>Bij het naleven van de principes van User Interface Design heb ik gezorgd voor consistentie in visuele stijl, begrijpelijk taalgebruik en intuïtieve interactie. Toegankelijkheid stond centraal, met bijvoorbeeld optimale contrastverhoudingen voor leesbaarheid."
+      },{
+        "title": "Conclusie",
+        "text": "Met trots presenteer ik mijn creatie: een volledig namaak van de Gentse Feesten website, gebouwd met liefde voor detail en streven naar uitmuntendheid in User Interface Design. Dit project heeft mijn vaardigheden verrijkt en me verder laten groeien als developer.<br>Bedankt voor uw interesse in mijn werk."  
+      }
+    ]
+  },  
+  "technologies": ["HTML", "CSS", "JavaScript"],
+  "gallery": ["images/shot1.png", "images/shot2.png"]
 }

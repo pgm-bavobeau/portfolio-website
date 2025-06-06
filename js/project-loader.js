@@ -11,7 +11,6 @@ if (!id) {
 
 console.log(`Loading project with ID: ${id}`);
 
-
 fetch(`data/${id}.json`)
   .then(res => {
     if (!res.ok) throw new Error("Not found");
@@ -22,41 +21,65 @@ fetch(`data/${id}.json`)
     document.getElementById("project-title").innerText = project.title;
     document.getElementById("description").innerText = project.description;
 
-    if (project.thumbnail) {
-      document.getElementById("thumbnail").src = project.thumbnail;
-      document.getElementById("thumbnail").alt = project.title;
-    } else {
-      document.getElementById("thumbnail").remove();
-    }
-
     if (project.badges) {
       document.getElementById("badges").innerHTML = project.badges
         .map(b => `<span class="card__tag">${b}</span>`).join(" ");
-    }
-
-    if (project.gallery) {
-      document.getElementById("gallery").innerHTML = project.gallery
-        .map(src => `<img src="${src}" alt="" />`).join("");
-    }
-
-    if (project.features) {
-      document.getElementById("features").innerHTML = `
-        <h2>Features</h2>
-        <ul>${project.features.map(f => `<li>${f}</li>`).join("")}</ul>
-      `;
-    }
-
-    if (project.process) {
-      document.getElementById("process").innerHTML = `
-        <h2>Proces</h2>
-        ${project.process.map(p => `<h3>${p.title}</h3><p>${p.text}</p>`).join("")}
-      `;
-    }
+    }  
 
     const links = [];
     if (project.links.live) links.push(`<li><a href="${project.links.live}" target="_blank"><img src="../img/external-link.png" alt="live"></a></li>`);
     if (project.links.github) links.push(`<li><a href="${project.links.github}" target="_blank"><img src="../img/github.png" alt="github"></a></li>`);
     document.getElementById("links").innerHTML = links.join(" | ");
+
+    if (project.thumbnail) {
+      document.getElementById("thumbnail").src = project.thumbnail;
+      document.getElementById("thumbnail").alt = project.title;
+    } else {
+      document.getElementById("thumbnail-container").remove();
+    }
+
+    if (project.process) {
+      document.getElementById("process").innerHTML = `
+      <div class="layout__container">
+        <div class="title__container">
+          <h2>${project.process.title}</h2>
+          <p>${project.process.text}</p>
+        </div>
+        <div class="two__items">
+          <div class="column__left">
+          ${project.process.steps.map(step => `
+            <div class="process-step">
+            <h3>${step.title}</h3>
+            <p>${step.text}</p>
+            ${step.image ? `<img src="${step.image}" alt="${step.title}">` : ""}
+            </div>
+            `).join("")}
+            </div>  
+          <div class="column__right" data-aos="fade-left">
+            <h4>Technologieën</h4>
+            <ul>
+              ${project.technologies
+                .map(t => `<li>${t}</li>`).join("")}
+            </ul>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    if (project.gallery) {
+      document.getElementById("gallery").innerHTML = `
+      <div class="layout__container">
+        <div class="title__container">
+          <h2>Galerij</h2>
+        </div>
+        <div class="gallery__container">
+          ${project.gallery
+            .map(src => `<img src="${src}" alt="" />`).join("")}
+        </div>
+      </div>
+      `;
+    }
+
   })
   .catch(err => {
     document.body.innerHTML = "<p>Project niet gevonden.</p>";

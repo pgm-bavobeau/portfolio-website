@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Bavo Beaumon - Portfolio</title>
@@ -52,9 +53,9 @@
                 <li><a href="tel: 0484574667"><img src="./img/phone.png" alt="phone"></a></li>
             </ul>
           </div>
-          <div class="column__right">
+          <div class="column__right" data-aos="fade-up">
             <div class="portret">
-              
+
             </div>
           </div>
         </div>
@@ -72,16 +73,13 @@
             <p>Mijn portfolio toont projecten die mijn vermogen illustreren om <b>ideeën tot leven te brengen en interactieve webapplicaties te ontwikkelen.</b></p> 
             <p>Ik kijk uit naar praktijkervaring via werkplekleren om mijn vaardigheden verder te ontwikkelen en in real-world scenario's toe te passen.</p>
           </div>
-          <div class="column__right">
+          <div class="column__right" data-aos="fade-left">
             <h4>Contact info</h4>
             <ul>
               <li>Bavo Beaumon</li>
               <li>Gent</li>
               <li>
                 <a class="info__link" href="mailto: bavo.beaumon@telenet.be">bavo.beaumon@telenet.be</a>
-              </li>
-              <li>
-                <a class="info__link" href="tel: 0484574667">0484 57 46 67</a>
               </li>
             </ul>
             <h4>Programmeertalen</h4>
@@ -179,4 +177,8 @@
   </div>
 </body>
   <script src="js/index-loader.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
