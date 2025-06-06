@@ -1,0 +1,31 @@
+{
+  "id": "pgm-platform",
+  "title": "PGM Platform",
+  "description": "In mijn Programming 4 eindproject bouw ik een platform voor het Graduaat Programmeren. Studenten verkennen er programmalijnen en beheren hun portfolio. Dit platform verbindt kandidaten, studenten, alumni, het werkveld en geïnteresseerden.",
+  "badges": ["React", "Hygraph"],
+  "links": {
+    "github": "https://github.com/pgmgent-pgm-4/pgm-platform-pgm-bavobeau",
+    "live": ""
+  },
+  "thumbnail": "../img/pgm-platform/PGM-platform.png",
+  "process": {
+    "title": "Het project",
+    "text": "Mijn ambitieuze eindproject in Programming 4 omvat de ontwikkeling van een veelzijdig platform voor ons Graduaat Programmeren. Dit platform zal diverse programmalijnen aanbieden en een portfoliofunctie bevatten, gericht op het verbinden van kandidaat studenten, huidige studenten, alumni, het werkveld en geïnteresseerden.",
+    "steps": [
+      {
+        "title": "Gebruikersgerichte Functionaliteiten",
+        "text": "De gebruiksvriendelijke interface zal verschillende gebruikers aanspreken. Kandidaat studenten kunnen inzicht krijgen in programmalijnen en hun kenmerken, terwijl huidige studenten hun portfolio kunnen presenteren. Alumni blijven verbonden en het werkveld ontdekt opkomend talent. Geïnteresseerden ontdekken de impact van onze opleiding op het werkveld."
+      },
+      {
+        "title": "Technische Implementatie",
+        "text": "Technisch gezien zal ik HTML, CSS en JavaScript inzetten voor front-end ontwikkeling. Voor de back-end kies ik een geschikte programmeertaal en database om functionaliteiten te realiseren zoals accountbeheer en interactie tussen gebruikers."
+      },
+      {
+        "title": "Ontwerp en Gebruikerservaring",
+        "text": "Design en gebruikerservaring staan centraal. Een intuïtieve navigatie, visueel aantrekkelijk ontwerp en responsieve weergave zorgen voor een naadloze interactie op diverse apparaten."
+      }
+    ]
+  },
+  "technologies": ["HTML", "CSS", "JavaScript", "React", "Hygraph"],
+  "gallery": []
+}

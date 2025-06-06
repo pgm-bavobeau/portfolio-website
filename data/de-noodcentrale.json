@@ -1,0 +1,39 @@
+{
+  "id": "de-noodcentrale",
+  "title": "De Noodcentrale",
+  "description": "Voor @work2 maakten we een webapplicatie om de noodcentrale te ondersteunen bij operatorbeoordelingen. Ons doel is een efficiënt en gebruiksvriendelijk systeem te ontwikkelen dat de beoordelingsprocessen stroomlijnt en waardevolle inzichten biedt.",
+  "badges": ["Node.js", "Express", "MongoDB"],
+  "links": {
+    "github": "https://github.com/pgmgent-atwork2/project-3---werkstuk-noodcentrale-bavo-sophie-mardoek",
+    "live": ""
+  },
+  "thumbnail": "../img/de-noodcentrale/DeNoodcentrale.png",  
+  "process": {
+    "title": "Het project",
+    "text": "",
+    "steps": [
+      {
+        "title": "Efficiënte Beoordelingsapplicatie",
+        "text": "Ons team werkt aan een webapplicatie voor de noodcentrale, gericht op het beoordelen van operators en evaluaties uitvoeren. Wij streven naar een efficiënt en gebruiksvriendelijk systeem dat beoordelingsprocessen stroomlijnt en waardevolle inzichten biedt."
+      },
+      {
+        "title": "Gecoördineerde Expertise",
+        "text": "We zetten onze individuele sterke punten en expertises in voor een gebalanceerde aanpak. Taken zijn verdeeld over front-end, back-end, gebruikerservaring en databasebeheer. Door nauwe samenwerking optimaliseren we de webapplicatie op meerdere fronten."
+      },
+      {
+        "title": "Iteratieve Ontwikkeling",
+        "text": "Met regelmatig overleg sturen we het project bij. Onze iteratieve aanpak omvat prototyping, feedback en geleidelijke verfijning van functionaliteiten. Dit identificeert en overwint knelpunten vroegtijdig."
+      },
+      {
+        "title": "Gebruikersgericht Ontwerp",
+        "text": "Gebruikerservaring en ontwerp staan centraal. We creëren een intuïtieve, responsieve interface die aansluit bij de noodcentrale. Toegankelijkheid op diverse apparaten is een focuspunt."
+      },
+      {
+        "title": "Gedreven Teamwerk",
+        "text": "We richten ons op een hoogwaardige applicatie die de noodcentrale en operators ondersteunt. Onze hechte samenwerking leidt tot betrouwbare oplossingen en versterkt onze ontwikkel- en samenwerkingsvaardigheden."
+      }
+    ]
+  },
+  "technologies": ["Node.js", "Express", "MongoDB"],
+  "gallery": []
+}

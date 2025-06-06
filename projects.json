@@ -1,9 +1,28 @@
 [
   {
+    "id": "",
+    "title": "",
+    "description": "",
+    "thumb": "",
+    "badges": []
+  },
+  {
     "id": "gentse-feesten",
     "title": "Gentse Feesten 2022",
     "description": "Voor het vak user interface design heb ik de GF 2022 website volledig responsive nagemaakt.", 
     "thumb": "img/gentse-feesten/GentseFeesten.png",
     "badges": ["HTML", "CSS", "JS"]
+  },{
+    "id": "pgm-platform",
+    "title": "PGM-Platform",
+    "description": "Voor mijn finale project van Programming 4 heb ik een platform ontwikkelt voor het graduaat programmeren.",
+    "thumb": "img/PGM-Platform.png",
+    "badges": ["React", "Hygraph"]
+  },{
+    "id": "de-noodcentrale",
+    "title": "De noodcentrale",
+    "description": "Voor mijn finale project van @work2 heb ik een evaluatie platform voor de noodcentrale ontwikkelt met mijn team.",
+    "thumb": "img/DeNoodcentrale.png",
+    "badges": ["Node.js", "Express", "SQLite"]
   }
 ]
