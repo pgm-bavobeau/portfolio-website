@@ -136,6 +136,19 @@ main {
   height: 100%;
 }
 
+@media (max-width: 1200px) {
+  .layout__container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .layout__container {
+    width: 98vw;
+    padding: 0 1vw;
+  }
+}
+
 .title__container {
   padding: 50px 0 30px 0;
 }
@@ -246,21 +259,32 @@ main {
 
 /* #region card */
 .cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding: 10px 0;
-  flex-wrap: nowrap;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
   display: flex;
-  width: 33%;
+  flex-direction: column;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   transition: transform 0.3s ease;
+  width: 100%;
 }
 
 .card:hover {

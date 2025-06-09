@@ -1,0 +1,31 @@
+{
+  "id": "developers-mashup",
+  "title": "Developers mashup",
+  "description": "Een interactieve webapplicatie die meerdere externe API's integreert zoals het weer in Gent, GitHub-gebruikers, en hondentoiletten.",
+  "badges": ["API", "JavaScript", "HTML", "CSS", "Full-stack"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Integratie van meerdere externe gegevensbronnen en een dynamische gebruikersinterface.",
+    "steps": [
+      {
+        "title": "API-integratie",
+        "text": "Integreer verschillende API’s zoals Weather, GitHub en Stad Gent."
+      },
+      {
+        "title": "Zoek- en detailfunctionaliteit",
+        "text": "Implementeer zoekvelden en detailweergaven met dynamische rendering."
+      },
+      {
+        "title": "Structurering",
+        "text": "Gebruik een duidelijke folderstructuur en werk met functies per feature."
+      }
+    ]
+  },
+  "technologies": ["HTML", "CSS", "JavaScript", "Fetch API", "REST"],
+  "gallery": []
+}

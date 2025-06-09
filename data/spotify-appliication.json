@@ -1,0 +1,31 @@
+{
+  "id": "spotify-application",
+  "title": "Spotify application",
+  "description": "Een full-stack applicatie en API voor het beheren van Spotify-achtige inhoud zoals songs, albums, artiesten en playlists, met gebruikersrollen.",
+  "badges": ["Full-stack", "Express", "Node.js", "JWT", "API", "SQLite"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Combinatie van server-side rendering, gebruikersrollen en databeheer in een webapplicatie.",
+    "steps": [
+      {
+        "title": "API ontwikkelen",
+        "text": "CRUD-endpoints opzetten voor alle muziekelementen met Express en TypeORM."
+      },
+      {
+        "title": "Gebruikersrollen",
+        "text": "Implementeer rollen (admin, reader, editor) met toegangsrechten via middleware."
+      },
+      {
+        "title": "Authenticatie en UI",
+        "text": "Registratie, login en visuele interface voor databeheer met server-side rendering."
+      }
+    ]
+  },
+  "technologies": ["Node.js", "Express", "SQLite", "JWT", "HTML", "CSS", "JavaScript", "Swagger"],
+  "gallery": []
+}

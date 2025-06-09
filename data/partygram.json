@@ -1,0 +1,31 @@
+{
+  "id": "partygram",
+  "title": "Partygram",
+  "description": "Een mobiele app gebouwd met React Native waarin gebruikers posts, stories en chatberichten kunnen delen.",
+  "badges": ["React Native", "Mobile", "Expo", "Supabase", "Full-stack"],
+  "links": {
+    "github": "https://github.com/pgmgent-pgm-6/eindopdracht-partygram-pgm-bavobeau",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Mobiele app met focus op sociale interactie, authenticatie en dynamische feed.",
+    "steps": [
+      {
+        "title": "Onboarding en login",
+        "text": "Gebruikers registreren met Artevelde-mail en doorlopen onboarding met validatie."
+      },
+      {
+        "title": "Story en post systeem",
+        "text": "Gebruikers kunnen stories posten, favorieten beheren en reacties plaatsen."
+      },
+      {
+        "title": "Chat en GPS",
+        "text": "Implementatie van realtime chatfunctionaliteit en locatie via Expo Permissions."
+      }
+    ]
+  },
+  "technologies": ["React Native", "Expo", "Supabase", "TypeScript", "React Query"],
+  "gallery": []
+}

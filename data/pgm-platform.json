@@ -23,9 +23,17 @@
       {
         "title": "Ontwerp en Gebruikerservaring",
         "text": "Design en gebruikerservaring staan centraal. Een intuïtieve navigatie, visueel aantrekkelijk ontwerp en responsieve weergave zorgen voor een naadloze interactie op diverse apparaten."
+      },
+      {
+        "title": "API-integratie",
+        "text": "Gebruik GraphCMS voor contentbeheer en integreer media via Amazon S3 of Cloudinary."
+      },
+      {
+        "title": "Deployment",
+        "text": "Deploy via Netlify of Heroku met automatische CI/CD via GitHub Actions."
       }
     ]
   },
-  "technologies": ["HTML", "CSS", "JavaScript", "React", "Hygraph"],
+  "technologies": ["HTML", "CSS", "JavaScript", "React", "GraphCMS", "Styled Components", "Netlify", "GitHub Actions"],
   "gallery": []
 }

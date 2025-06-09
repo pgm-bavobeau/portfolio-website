@@ -7,22 +7,138 @@
     "badges": []
   },
   {
+    "id": "schrauwen-groen",
+    "title": "Schrauwen groen",
+    "description": "Simulatie van een klantproject waarbij een dynamische website werd gebouwd op basis van een bestaand ontwerp.",
+    "thumb": "",
+    "badges": ["HTML", "CSS", "JavaScript"]
+  },
+  {
     "id": "gentse-feesten",
     "title": "Gentse Feesten 2022",
-    "description": "Voor het vak user interface design heb ik de GF 2022 website volledig responsive nagemaakt.", 
+    "description": "Volledig responsive website gebaseerd op de Gentse Feesten 2022 met dynamische content via API’s.",
     "thumb": "img/gentse-feesten/GentseFeesten.png",
-    "badges": ["HTML", "CSS", "JS"]
-  },{
-    "id": "pgm-platform",
-    "title": "PGM-Platform",
-    "description": "Voor mijn finale project van Programming 4 heb ik een platform ontwikkelt voor het graduaat programmeren.",
-    "thumb": "img/PGM-Platform.png",
-    "badges": ["React", "Hygraph"]
-  },{
-    "id": "de-noodcentrale",
-    "title": "De noodcentrale",
-    "description": "Voor mijn finale project van @work2 heb ik een evaluatie platform voor de noodcentrale ontwikkelt met mijn team.",
-    "thumb": "img/DeNoodcentrale.png",
+    "badges": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": "rock-werchter",
+    "title": "Rock Werchter",
+    "description": "Node.js app die de lineup en details toont van Rock Werchter 2022 met ES6-functionaliteiten.",
+    "thumb": "",
+    "badges": ["Node.js", "JavaScript"]
+  },
+  {
+    "id": "afstudeerprojecten",
+    "title": "Afstudeerprojecten",
+    "description": "Een dynamische front-end toepassing die projecten en social media integreert met klokken en interactie.",
+    "thumb": "",
+    "badges": ["JavaScript", "HTML", "CSS"]
+  },
+  {
+    "id": "developers-mashup",
+    "title": "Developers mashup",
+    "description": "Webapp die externe APIs integreert zoals weer, GitHub en hondentoiletten voor een dynamische datavisualisatie.",
+    "thumb": "",
+    "badges": ["JavaScript", "APIs", "Full-stack"]
+  },
+  {
+    "id": "instagram-simplified",
+    "title": "Instagram simplified",
+    "description": "Gesimuleerde Instagram-app met back-end en front-end structuur inclusief posts, comments en API’s.",
+    "thumb": "",
+    "badges": ["Node.js", "Express", "HTML", "CSS"]
+  },
+  {
+    "id": "parkiet-ring",
+    "title": "Parkiet ring",
+    "description": "Applicatie met gebruikersregistratie, wachtwoordbeheer en dashboardfunctionaliteit in MVC-structuur.",
+    "thumb": "",
     "badges": ["Node.js", "Express", "SQLite"]
+  },
+  {
+    "id": "just-do-it",
+    "title": "Just do it",
+    "description": "Todo-app met categorieën, registratie, login, archiveren en tagging-functionaliteiten.",
+    "thumb": "",
+    "badges": ["Node.js", "JWT", "Handlebars"]
+  },
+  {
+    "id": "spotify-application",
+    "title": "Spotify application",
+    "description": "Beheerplatform voor muziek, albums en gebruikersrollen met API en authenticatie.",
+    "thumb": "",
+    "badges": ["Node.js", "Express", "SQLite"]
+  },
+
+  {
+    "id": "de-noodcentrale",
+    "title": "De Noodcentrale",
+    "description": "React-applicatie voor het beheren van noodoproepen met een dashboard, gebruikersbeheer en notificaties.", 
+    "thumb": "",
+    "badges": ["React", "Node.js", "Express", "MongoDB"]
+  },
+  {
+    "id": "at-work-3",
+    "title": "@work 3",
+    "description": "Teamproject met Agile werking voor een echte klant met dagelijkse retrospectives en presentaties.",
+    "thumb": "",
+    "badges": ["Agile", "Scrum", "CI/CD"]
+  },
+  {
+    "id": "room-for-thought",
+    "title": "Room for thought",
+    "description": "Next.js applicatie die rustige restaurants toont, filterbaar via JSON-data en CRUD-opties.",
+    "thumb": "",
+    "badges": ["Next.js", "JSON", "CSS"]
+  },  
+  {
+    "id": "niche-community",
+    "title": "Niche community",
+    "description": "Laravel-gebaseerd communityplatform met user generated content, likes en speciale functies.",
+    "thumb": "",
+    "badges": ["Laravel", "MySQL"]
+  },
+  {
+    "id": "deeldepot",
+    "title": "DeelDepot",
+    "description": "Platform voor het beheren en verhuren van materiaal met rollenbeheer, e-mail en Strapi.",
+    "thumb": "",
+    "badges": ["Next.js", "Strapi", "GraphQL"]
+  },
+  
+  {
+    "id": "pgm-platform",
+    "title": "PGM Platform",
+    "description": "Platform gebouwd in React voor studenten, alumni en geïnteresseerden met Hygraph-integratie.",
+    "thumb": "img/pgm-platform/pgm-platform.png",
+    "badges": ["React", "Hygraph"]
+  },
+  {
+    "id": "craft-cms",
+    "title": "Craft CMS",
+    "description": "CMS-website met Twig-templates, hiërarchische structuur en filterbare content.",
+    "thumb": "",
+    "badges": ["Craft CMS", "Twig", "SQL"]
+  },
+  {
+    "id": "custom-backoffice",
+    "title": "Custom backoffice",
+    "description": "Laravel-backoffice met CRUD, statistieken, filtering en loginfunctionaliteit.",
+    "thumb": "",
+    "badges": ["Laravel", "SQL", "Chart.js"]
+  },  
+  {
+    "id": "partygram",
+    "title": "Partygram",
+    "description": "Mobiele app voor stories, posts en chats, gebouwd met React Native en Supabase.",
+    "thumb": "",
+    "badges": ["React Native", "Expo", "Supabase"]
+  },
+  {
+    "id": "eindproject",
+    "title": "Eindproject",
+    "description": "Afstudeerproject waarin alle competenties samenkomen, gepresenteerd aan een jury met demo en screencast.",
+    "thumb": "",
+    "badges": ["Laravel", "Vite", "PHP", "SQLite"]
   }
 ]

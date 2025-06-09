@@ -1,0 +1,31 @@
+{
+  "id": "deeldepot",
+  "title": "DeelDepot",
+  "description": "Een applicatie ontwikkeld met Next.js en Strapi waarin gebruikers materiaal kunnen beheren en verhuren via verschillende gebruikersrollen.",
+  "badges": ["Next.js", "Strapi", "GraphQL", "Full-stack"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Combinatie van UI, backendlogica, rollenbeheer en communicatie via e-mail.",
+    "steps": [
+      {
+        "title": "Gebruikersbeheer en login",
+        "text": "Gebruikers kunnen zich registreren en hun profiel beheren. JWT-authenticatie is toegepast."
+      },
+      {
+        "title": "Materiaalbeheer",
+        "text": "Dashboard voor gebruikers om materialen te beheren en aanvragen goed te keuren of af te wijzen."
+      },
+      {
+        "title": "Strapi en e-mail",
+        "text": "Gebruik van Strapi voor contentbeheer en integratie met e-maildiensten zoals Mailgun."
+      }
+    ]
+  },
+  "technologies": ["Next.js", "Strapi", "GraphQL", "JWT", "Mailgun"],
+  "gallery": []
+}

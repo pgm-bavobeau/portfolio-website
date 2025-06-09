@@ -1,0 +1,31 @@
+{
+  "id": "instagram-simplified", 
+  "title": "Instagram simplified",
+  "description": "Een gesimuleerde Instagram-applicatie met Node.js, Express en JSON-bestanden als databronnen, inclusief client en server.",
+  "badges": ["Full-stack", "Node.js", "Express", "JSON", "HTML", "CSS"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Volledige implementatie van back-end en front-end functionaliteiten voor een sociale media simulatie.",
+    "steps": [
+      {
+        "title": "Server opzetten",
+        "text": "Implementeer controllers en data services met endpoints voor posts en gebruikers."
+      },
+      {
+        "title": "Client bouwen",
+        "text": "Maak een front-end die posts toont, gebruikers volgt en reacties verwerkt."
+      },
+      {
+        "title": "Testen & API-calls",
+        "text": "Gebruik fetch, Postman en foutafhandeling om de API correct te gebruiken."
+      }
+    ]
+  },
+  "technologies": ["Node.js", "Express", "HTML", "CSS", "JavaScript"],
+  "gallery": []
+}

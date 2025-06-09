@@ -1,0 +1,31 @@
+{
+  "id": "just-do-it",
+  "title": "Just do it",
+  "description": "Een todo-applicatie met login en registratie, ontwikkeld met Node.js, Express en SQLite. Gebruikers kunnen todo-items en categorieën beheren.",
+  "badges": ["Authentication", "CRUD", "Full-stack", "Node.js"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Volledige CRUD-toepassing voor todo's en categorieën met gebruikersbeheer.",
+    "steps": [
+      {
+        "title": "Authenticatie implementeren",
+        "text": "Registreer en meld gebruikers aan via versleutelde wachtwoorden en JWT-authenticatie."
+      },
+      {
+        "title": "CRUD-functionaliteiten",
+        "text": "Todo’s en categorieën aanmaken, lezen, updaten en verwijderen via beveiligde routes."
+      },
+      {
+        "title": "Interface en validatie",
+        "text": "Gebruik Handlebars voor templating en express-validator voor formuliervalidatie."
+      }
+    ]
+  },
+  "technologies": ["Node.js", "Express", "TypeORM", "JWT", "HTML", "CSS", "Handlebars"],
+  "gallery": []
+}

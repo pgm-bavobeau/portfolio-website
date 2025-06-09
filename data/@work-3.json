@@ -1,0 +1,31 @@
+{
+  "id": "@work-3",
+  "title": "@work 3",
+  "description": "Multidisciplinair project voor een echte klant waarbij studenten Agile werken in teams en een oplossing bouwen en presenteren.",
+  "badges": ["Teamwork", "Agile", "Project management", "Presentatie"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Projectmatige aanpak met Agile methodieken en GitHub Projects.",
+    "steps": [
+      {
+        "title": "Planning en sprints",
+        "text": "Dagelijkse stand-ups, retrospectives en taakverdeling via GitHub Projects."
+      },
+      {
+        "title": "Samenwerking",
+        "text": "Teamwerk rond ontwikkeling, testen, documentatie en feedbackverwerking."
+      },
+      {
+        "title": "Eindpresentatie",
+        "text": "Voorstelling van het eindproduct aan de klant met Q&A."
+      }
+    ]
+  },
+  "technologies": ["GitHub", "CI/CD", "Agile", "Scrum"],
+  "gallery": []
+}

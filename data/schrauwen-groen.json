@@ -1,0 +1,31 @@
+{
+  "id": "schrauwen-groen",    
+  "title": "Schrauwen groen",
+  "description": "Een front-end project waarbij je een vereenvoudigde versie van de website Schrauwen Groen bouwt op basis van een design. De site bevat dynamische pagina’s met JavaScript en wordt geëvalueerd op technische, esthetische en gebruikersgerichte criteria.",
+  "badges": ["HTML", "CSS", "JavaScript", "Front-end"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Het project volgt een typische front-end flow met dynamische content via JavaScript en een duidelijke scheiding van inhoud, structuur en stijl.",
+    "steps": [
+      {
+        "title": "Opzet mappenstructuur",
+        "text": "De juiste mappen worden opgezet voor HTML, CSS en JavaScript-bestanden met reset.css inbegrepen."
+      },
+      {
+        "title": "Content dynamisch laden",
+        "text": "Services en referenties worden via arrays dynamisch gegenereerd in de pagina met JavaScript."
+      },
+      {
+        "title": "Responsive design",
+        "text": "Media queries, flexbox en CSS-units zorgen ervoor dat de site goed werkt op verschillende schermgroottes."
+      }
+    ]
+  },
+  "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+  "gallery": []
+}

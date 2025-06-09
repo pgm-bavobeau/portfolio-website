@@ -1,0 +1,40 @@
+{
+  "id": "afstudeerprojecten",
+  "title": "Afstudeerprojecten",
+  "description": "Een JavaScript-gebaseerde front-end opdracht waarin afstudeerprojecten en andere elementen dynamisch gegenereerd worden.",
+  "badges": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Front-end"
+  ],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Beschrijving van het proces in stappen.",
+    "steps": [
+      {
+        "title": "DOM-manipulatie",
+        "text": "Gebruik JavaScript om navigatie, projecten, klokken en social media links dynamisch weer te geven."
+      },
+      {
+        "title": "Interactiviteit toevoegen",
+        "text": "Voeg modals, filtering en detailweergaven toe via event listeners."
+      },
+      {
+        "title": "Gebruik van setInterval",
+        "text": "Implementeer optel- en aftelklokken met real-time updates."
+      }
+    ]
+  },
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "gallery": []
+}

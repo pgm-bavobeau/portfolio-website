@@ -2,8 +2,8 @@ fetch("projects.json")
   .then(res => res.json())
   .then(projects => {
     const container = document.getElementById("projects");
-    const lastSix = projects.slice(-6);
-    container.innerHTML = lastSix.map(p => `
+    const firstSixReversed = projects.reverse().slice(0, 6);
+    container.innerHTML = firstSixReversed.map(p => `
       <li class="card" data-aos="fade-up">
       <a href="project.html?id=${p.id}" class="card__link">
         <img src="${p.thumb}" alt="${p.title}">

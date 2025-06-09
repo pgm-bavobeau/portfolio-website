@@ -1,0 +1,31 @@
+{
+  "id": "niche-community",
+  "title": "Niche community",
+  "description": "Een community platform gebouwd met Laravel waarin gebruikers content delen rond een specifieke interesse, inclusief speciale functies.",
+  "badges": ["Laravel", "Full-stack", "Community", "PHP"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Communityplatform met unieke interactieve functies gebouwd op Laravel.",
+    "steps": [
+      {
+        "title": "Database opzetten",
+        "text": "Gebruik migrations en seeding om de volledige structuur en data voor de community op te bouwen."
+      },
+      {
+        "title": "Content en interactie",
+        "text": "Gebruikers kunnen content toevoegen, liken, reageren en fans verzamelen."
+      },
+      {
+        "title": "Speciale functies",
+        "text": "Bied unieke tools zoals wedstrijden, projectpagina’s of progress trackers voor de doelgroep."
+      }
+    ]
+  },
+  "technologies": ["Laravel", "MySQL", "JavaScript"],
+  "gallery": []
+}

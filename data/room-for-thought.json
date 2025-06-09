@@ -1,0 +1,31 @@
+{
+  "id": "room-for-thought", 
+  "title": "Room for thought",
+  "description": "Een interactieve website in Next.js waarbij gebruikers rustige restaurants kunnen ontdekken, beoordelen en beheren met behulp van JSON-data.",
+  "badges": ["Next.js", "Full-stack", "JSON", "React"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Een interactieve interface met server-side componenten en optionele authenticatie.",
+    "steps": [
+      {
+        "title": "Data beheren via JSON",
+        "text": "Gebruik een JSON-bestand als database om restaurantgegevens op te slaan en te laden."
+      },
+      {
+        "title": "Functionaliteiten bouwen",
+        "text": "Zoek-, filter- en beoordelingsfunctionaliteiten toevoegen, inclusief detailpagina’s en reserveringen."
+      },
+      {
+        "title": "UI en beheerpagina",
+        "text": "Implementatie van een beheerderspagina om nieuwe plaatsen toe te voegen."
+      }
+    ]
+  },
+  "technologies": ["Next.js", "JSON", "React", "CSS"],
+  "gallery": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "custom-backoffice",
+  "title": "Custom backoffice",
+  "description": "Een Laravel-applicatie met een zelfgebouwde backoffice om gegevens te beheren, inclusief login, dashboards en zoekfuncties.",
+  "badges": ["Laravel", "MySQL", "Back-office", "Admin", "Full-stack"],
+  "links": {
+    "github": "https://github.com/pgmgent-2324-datamanagement/php-backoffice-pgm-bavobeau",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Backoffice met datavisualisatie, filters en CRUD-functionaliteiten.",
+    "steps": [
+      {
+        "title": "Databasemodel",
+        "text": "Modelleer een relationele database met minstens 8 tabellen, inclusief relaties en constraints."
+      },
+      {
+        "title": "CRUD + authenticatie",
+        "text": "Voorzie gebruikerslogin, dashboard met statistieken en bewerkbare tabellen."
+      },
+      {
+        "title": "Zoeken, sorteren en charts",
+        "text": "Voeg zoekfunctionaliteit en datavisualisatie toe met Chart.js of gelijkaardige tools."
+      }
+    ]
+  },
+  "technologies": ["Laravel", "MySQL", "Bootstrap", "Chart.js", "JavaScript"],
+  "gallery": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "craft-cms",
+  "title": "Craft CMS",
+  "description": "Een website gebouwd met Craft CMS en Twig waarbij je een gestructureerde indeling en filterbare content voorziet, inclusief een contactformulier.",
+  "badges": ["Craft CMS", "Twig", "Back-end", "CMS"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "CMS-configuratie met front-end templating en geavanceerde structuur.",
+    "steps": [
+      {
+        "title": "Structuur opzetten",
+        "text": "Maak een hiërarchie van pagina's en secties met velden via Craft CMS."
+      },
+      {
+        "title": "Twig templates",
+        "text": "Gebruik Twig om dynamisch content in te laden en te filteren op categorieën."
+      },
+      {
+        "title": "Contactformulier",
+        "text": "Integreer een plugin om gebruikers contact te laten opnemen via de site."
+      }
+    ]
+  },
+  "technologies": ["Craft CMS", "Twig", "SQL", "HTML", "CSS"],
+  "gallery": []
+}

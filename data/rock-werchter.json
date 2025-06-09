@@ -1,0 +1,39 @@
+{
+  "id": "rock-werchter",
+  "title": "Rock Werchter",
+  "description": "Een back-end project met Node.js waarbij concertdata voor Rock Werchter 2022 wordt weergegeven en gemanipuleerd via JavaScript.",
+  "badges": [
+    "Node.js",
+    "JavaScript",
+    "Back-end"
+  ],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Beschrijving van het proces in stappen.",
+    "steps": [
+      {
+        "title": "Data modelleren",
+        "text": "Gebruik object literals of constructor functions voor concertdata."
+      },
+      {
+        "title": "Logica implementeren",
+        "text": "Schrijf ES6 JavaScript-functies voor dataweergave en interactie."
+      },
+      {
+        "title": "Versiebeheer en documentatie",
+        "text": "Organiseer je project op GitHub met correcte structuur, snippets en screenshots."
+      }
+    ]
+  },
+  "technologies": [
+    "Node.js",
+    "JavaScript",
+    "Git"
+  ],
+  "gallery": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "parkiet-ring",
+  "title": "Parkiet ring",
+  "description": "Een volledige webapplicatie met registratie, login en gebruikersbeheer op basis van een Node.js/Express back-end.",
+  "badges": ["Authentication", "Full-stack", "Node.js", "MVC"],
+  "links": {
+    "github": "",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Project met sterke nadruk op authenticatie, gebruikersbeheer en back-end logica.",
+    "steps": [
+      {
+        "title": "Authenticatie en autorisatie",
+        "text": "Implementeer registratie, login, middleware en gebruikersrollen."
+      },
+      {
+        "title": "MVC-structuur",
+        "text": "Bouw het project volgens een duidelijke Model-View-Controller structuur."
+      },
+      {
+        "title": "Beveiliging en documentatie",
+        "text": "Gebruik .env, .gitignore, JSDoc, Swagger en zorg voor duidelijke code."
+      }
+    ]
+  },
+  "technologies": ["Node.js", "Express", "SQLite", "HTML", "CSS", "JavaScript"],
+  "gallery": []
+}

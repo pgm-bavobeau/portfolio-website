@@ -1,0 +1,31 @@
+{
+  "id": "eindproject",
+  "title": "Eindproject",
+  "description": "Het afstudeerproject omvat het ontwikkelen van een volledige webapplicatie waarin je alle aangeleerde vaardigheden toepast. Presentatie, code, documentatie en screencast zijn inbegrepen.",
+  "badges": ["Full-stack", "Presentatie", "Laravel", "Vite"],
+  "links": {
+    "github": "https://github.com/pgm-bavobeau/Afstudeerproject",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Van voorbereiding tot presentatie van het volledige eindproject met codebase en demo.",
+    "steps": [
+      {
+        "title": "Productievoorbereiding",
+        "text": "Lever een volledig productiedossier aan met wireframes, timesheets en retrospectives."
+      },
+      {
+        "title": "Ontwikkeling",
+        "text": "Bouw de front-end en back-end van een volledige applicatie met focus op kwaliteit en structuur."
+      },
+      {
+        "title": "Presentatie",
+        "text": "Stel het eindproduct voor via screencast en mondelinge verdediging aan een jury."
+      }
+    ]
+  },
+  "technologies": ["Laravel", "Vite", "SQL", "PHP", "HTML", "tailwindCSS", "JavaScript"],
+  "gallery": []
+}
