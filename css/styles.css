@@ -99,12 +99,14 @@ main {
 .header {
   background-color: var(--blue--dark);
 }
-
 .layout__container {
   margin: 0 auto;
-  padding-bottom: 100px;
   width: 70vw;
   height: 100%;
+}
+
+.layout__container:not(:has(.two__items--image)) {
+  padding-bottom: 100px;
 }
 
 @media (max-width: 1200px) {

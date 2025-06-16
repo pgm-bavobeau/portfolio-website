@@ -27,13 +27,13 @@ fetch(`data/${id}.json`)
     }
 
     const links = [];
-    if (project.links.live) links.push(`<li><a href="${project.links.live}" target="_blank"><img src="../img/external-link.png" alt="live"></a></li>`);
-    if (project.links.github) links.push(`<li><a href="${project.links.github}" target="_blank"><img src="../img/github.png" alt="github"></a></li>`);
+    if (project.links.live) links.push(`<li><a href="${project.links.live}" target="_blank"><img src="img/external-link.png" alt="live"></a></li>`);
+    if (project.links.github) links.push(`<li><a href="${project.links.github}" target="_blank"><img src="img/github.png" alt="github"></a></li>`);
 
     // Handle additional links
     if (project.links.other) {
       project.links.other.forEach(link => {
-        links.push(`<li><a href="${link.url}" target="_blank"><img src="${link.icon || '../img/external-link.png'}" alt="${link.subtitle || 'link'}">${link.subtitle ? `<span>${link.subtitle}</span>` : ''}</a></li>`);
+        links.push(`<li><a href="${link.url}" target="_blank"><img src="${link.icon || 'img/external-link.png'}" alt="${link.subtitle || 'link'}">${link.subtitle ? `<span>${link.subtitle}</span>` : ''}</a></li>`);
       });
     }
 
