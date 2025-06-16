@@ -2,12 +2,16 @@
   "id": "eindproject",
   "title": "Eindproject",
   "description": "Het afstudeerproject omvat het ontwikkelen van een volledige webapplicatie waarin ik alle aangeleerde vaardigheden toepas. De live website is niet meer beschikbaar, de code is beschikbaar op GitHub.",
-  "badges": ["Full-stack", "Presentatie", "Laravel", "Vite"],
+  "badges": ["Full-stack", "Statamic", "Tailwind CSS", "Laravel", "Vite"],
   "links": {
     "github": "https://github.com/pgm-bavobeau/Afstudeerproject",
-    "live": ""
+    "live": "",
+    "other": [{
+      "url": "img/eindproject/poster.pdf",
+      "subtitle": "Poster"
+    }]
   },
-  "thumbnail": "",
+  "thumbnail": "img/eindproject/poster.png",
   "process": {
     "title": "Doel van het project",
     "text": "Als eindproject ontwikkelde ik een CMS-gebaseerde webapplicatie voor jeugdverenigingen, in eerste instantie voor mijn eigen jeugdbeweging (KSA Sint-Lieven Gent Jongens). Het doel was om een bestaande, moeilijk te beheren HTML-site om te vormen tot een gebruiksvriendelijke, uitbreidbare en onderhoudsarme oplossing die toegankelijk is voor mensen zonder technische kennis. <br> Wat begon als een project voor één vereniging, groeide al snel uit tot een generiek sjabloon dat door meerdere verenigingen gebruikt kan worden.",

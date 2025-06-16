@@ -213,6 +213,11 @@ main {
   margin-right: 20px;
 }
 
+.socials li a span {
+  color: var(--white);
+  font-size: 1rem;
+}
+
 .socials li img {
   filter: invert(100%);
   width: 50px;
@@ -329,6 +334,10 @@ li {
 .card img {
   width: 100%;
   height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 16 / 9;
   border-radius: 5px;
   margin-bottom: 10px;
 }

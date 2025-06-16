@@ -24,11 +24,19 @@ fetch(`data/${id}.json`)
     if (project.badges) {
       document.getElementById("badges").innerHTML = project.badges
         .map(b => `<span class="card__tag">${b}</span>`).join(" ");
-    }  
+    }
 
     const links = [];
     if (project.links.live) links.push(`<li><a href="${project.links.live}" target="_blank"><img src="../img/external-link.png" alt="live"></a></li>`);
     if (project.links.github) links.push(`<li><a href="${project.links.github}" target="_blank"><img src="../img/github.png" alt="github"></a></li>`);
+
+    // Handle additional links
+    if (project.links.other) {
+      project.links.other.forEach(link => {
+        links.push(`<li><a href="${link.url}" target="_blank"><img src="${link.icon || '../img/external-link.png'}" alt="${link.subtitle || 'link'}">${link.subtitle ? `<span>${link.subtitle}</span>` : ''}</a></li>`);
+      });
+    }
+
     document.getElementById("links").innerHTML = links.join(" | ");
 
     if (project.thumbnail) {
@@ -59,7 +67,7 @@ fetch(`data/${id}.json`)
             <h4>Technologieën</h4>
             <ul>
               ${project.technologies
-                .map(t => `<li>${t}</li>`).join("")}
+          .map(t => `<li>${t}</li>`).join("")}
             </ul>
           </div>
         </div>
@@ -74,7 +82,7 @@ fetch(`data/${id}.json`)
         </div>
         <div class="gallery__container">
           ${project.gallery
-            .map(src => `<img src="${src}" alt="" />`).join("")}
+          .map(src => `<img src="${src}" alt="" />`).join("")}
         </div>
       </div>
       `;

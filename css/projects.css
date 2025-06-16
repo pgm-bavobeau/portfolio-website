@@ -1,9 +1,9 @@
 header {
-  background-color: hsl(0, 0%, 0%);
+  background-color: var(--blue--dark);
 }
 
 .header {
-  background-color: hsl(0, 0%, 0%);
+  background-color: var(--blue--dark);
 }
 
 .home {
