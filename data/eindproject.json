@@ -11,7 +11,7 @@
       "subtitle": "Poster"
     }]
   },
-  "thumbnail": "img/eindproject/poster.png",
+  "thumbnail": "img/eindproject/poster-thumb.jpg",
   "process": {
     "title": "Doel van het project",
     "text": "Als eindproject ontwikkelde ik een CMS-gebaseerde webapplicatie voor jeugdverenigingen, in eerste instantie voor mijn eigen jeugdbeweging (KSA Sint-Lieven Gent Jongens). Het doel was om een bestaande, moeilijk te beheren HTML-site om te vormen tot een gebruiksvriendelijke, uitbreidbare en onderhoudsarme oplossing die toegankelijk is voor mensen zonder technische kennis. <br> Wat begon als een project voor één vereniging, groeide al snel uit tot een generiek sjabloon dat door meerdere verenigingen gebruikt kan worden.",

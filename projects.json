@@ -138,7 +138,7 @@
     "id": "eindproject",
     "title": "Eindproject",
     "description": "Afstudeerproject waarin alle competenties samenkomen, gepresenteerd aan een jury met demo en screencast.",
-    "thumb": "img/eindproject/poster.png",
+    "thumb": "img/eindproject/poster-thumb.jpg",
     "badges": ["Statamic", "Tailwind CSS", "Laravel", "Vite"]
   }
 ]
