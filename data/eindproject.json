@@ -1,7 +1,7 @@
 {
   "id": "eindproject",
   "title": "Eindproject",
-  "description": "Het afstudeerproject omvat het ontwikkelen van een volledige webapplicatie waarin je alle aangeleerde vaardigheden toepast. Presentatie, code, documentatie en screencast zijn inbegrepen.",
+  "description": "Het afstudeerproject omvat het ontwikkelen van een volledige webapplicatie waarin ik alle aangeleerde vaardigheden toepas. De live website is niet meer beschikbaar, de code is beschikbaar op GitHub.",
   "badges": ["Full-stack", "Presentatie", "Laravel", "Vite"],
   "links": {
     "github": "https://github.com/pgm-bavobeau/Afstudeerproject",
@@ -9,23 +9,30 @@
   },
   "thumbnail": "",
   "process": {
-    "title": "Ontwikkelingsproces",
-    "text": "Van voorbereiding tot presentatie van het volledige eindproject met codebase en demo.",
+    "title": "Doel van het project",
+    "text": "Als eindproject ontwikkelde ik een CMS-gebaseerde webapplicatie voor jeugdverenigingen, in eerste instantie voor mijn eigen jeugdbeweging (KSA Sint-Lieven Gent Jongens). Het doel was om een bestaande, moeilijk te beheren HTML-site om te vormen tot een gebruiksvriendelijke, uitbreidbare en onderhoudsarme oplossing die toegankelijk is voor mensen zonder technische kennis. <br> Wat begon als een project voor één vereniging, groeide al snel uit tot een generiek sjabloon dat door meerdere verenigingen gebruikt kan worden.",
     "steps": [
       {
-        "title": "Productievoorbereiding",
-        "text": "Lever een volledig productiedossier aan met wireframes, timesheets en retrospectives."
+        "title": "Doelgroep",
+        "text": "De tool is bedoeld voor leidingsploegen van jeugdverenigingen die zelf geen technische kennis hebben, maar wel hun website willen beheren, evenementen organiseren en betalingen verwerken."
       },
       {
-        "title": "Ontwikkeling",
-        "text": "Bouw de front-end en back-end van een volledige applicatie met focus op kwaliteit en structuur."
+        "title": "Belangrijkste functionaliteiten",
+        "text": "Reserveringssysteem voor evenementen<br>Online betalingen<br>CMS met modulaire contentblokken (flexibele page builder)<br>Gebruiksvriendelijke interface voor niet-technische gebruikers<br>Voorbereid op uitbreidingen zoals documentbeheer en gebruikersprofielen"
       },
       {
-        "title": "Presentatie",
-        "text": "Stel het eindproduct voor via screencast en mondelinge verdediging aan een jury."
+        "title": " Technische aanpak",
+        "text": "CMS: Gebouwd met Statamic (flat file CMS bovenop Laravel)<br>Styling: Tailwind CSS<br>CI/CD: Deployments verlopen automatisch via Railway bij commits naar de main branch<br>CMS-componenten: Dynamische contentblokken die eenvoudig uit te breiden zijn met partials op basis van type-waarden<br>Flat file-opslag: Wegens problemen met SQLite is gekozen voor een flat file-oplossing<br>Flexibele page builder: Dankzij slimme partial-structuur kunnen nieuwe bloktypes snel worden toegevoegd"
+      }, {
+        "title": "Testing & feedback",
+        "text": "Er werd gebruikersfeedback verzameld via tests met ouders als primaire eindgebruikers. Zij gaven waardevolle input, zoals:<br>De wens om eigen reservaties te kunnen beheren<br>Betaling per kind (meisjes/jongens)<br>Uploaden van medische fiches<br>Mogelijkheid tot aanpassingen voor niet-betaalde reservaties<br>Hoewel de test met de leidingsploeg nog niet doorging, werd al veel input geïmplementeerd of voorzien voor latere uitbreidingen.<br>Uploaden van medische fiches.<br>Mogelijkheid tot aanpassingen voor niet-betaalde reservaties<br>Hoewel de test met de leidingsploeg nog niet doorging, werd al veel input geïmplementeerd of voorzien voor latere uitbreidingen."
+      },
+      {
+        "title": "Reflectie & leerpunten",
+        "text": "Veel geleerd over werken met headless CMS'en en Laravel-integratie<br>Inzicht gekregen in hoe belangrijk gebruiksvriendelijkheid is voor een niet-technisch publiek<br>Eerste ervaring met CI/CD en live deployen via Railway<br>Complexe uitdagingen zoals betalingsverwerking en gebruikersdata-opslag creatief opgelost"
       }
     ]
   },
-  "technologies": ["Laravel", "Vite", "SQL", "PHP", "HTML", "tailwindCSS", "JavaScript"],
+  "technologies": ["Laravel", "Statamic CMS", "tailwindCSS", "Vite", "PHP", "HTML"],
   "gallery": []
 }
