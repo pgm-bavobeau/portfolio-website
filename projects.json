@@ -110,7 +110,7 @@
     "id": "pgm-platform",
     "title": "PGM Platform",
     "description": "Platform gebouwd in React voor studenten, alumni en geïnteresseerden met Hygraph-integratie.",
-    "thumb": "img/pgm-platform/pgm-platform.png",
+    "thumb": "img/pgm-platform/PGM-Platform.png",
     "badges": ["React", "Hygraph"]
   },
   {
