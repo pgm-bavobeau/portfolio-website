@@ -11,6 +11,10 @@ header {
   height: 50vh;
 }
 
+#project-title {
+  font-size: 3rem;
+}
+
 .thumbnail__container {
   position: relative;
   width: 100%;

@@ -45,35 +45,6 @@ a {
 
 em {
   color: var(--orange);
-  text-shadow: 3px 3px hsla(0, 0%, 94%, 0.14);
-  animation: Color 4s linear infinite;
-}
-
-@keyframes Color {
-  0% {
-    color: hsl(36, 99%, 35%);
-    fill: hsl(36, 99%, 35%);
-  }
-
-  25% {
-    color: hsl(36, 99%, 55%);
-    fill: hsl(36, 99%, 55%);
-  }
-
-  50% {
-    color: hsl(36, 99%, 65%);
-    fill: hsl(36, 99%, 65%);
-  }
-
-  75% {
-    color: hsl(36, 99%, 55%);
-    fill: hsl(36, 99%, 55%);
-  }
-
-  100% {
-    color: hsl(36, 99%, 35%);
-    fill: hsl(36, 99%, 35%);
-  }
 }
 /* #endregion */
 
@@ -119,9 +90,6 @@ header {
 /* #endregion */
 
 /* #region main */
-section {
-}
-
 main {
   z-index: -100;
   background-color: var(--white);
