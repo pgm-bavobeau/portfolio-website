@@ -1,0 +1,39 @@
+{
+  "id": "whatsapp-calendar-bot",
+  "title": "WhatsApp Calendar Bot",
+  "description": "Een chatbot waarmee klanten via WhatsApp afspraken kunnen boeken, wijzigen of annuleren, rechtstreeks gekoppeld aan één Google Calendar. Volledig gebouwd met officiële APIs, zonder externe diensten.",
+  "badges": ["AI", "Next.js", "TypeScript", "Google Calendar API", "WhatsApp Business API"],
+  "links": {
+    "github": "https://github.com/pgm-bavobeau/whatsapp-calendar-bot",
+    "live": ""
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "Ontwikkelingsproces",
+    "text": "Van initiële API-configuratie tot een volledig werkende WhatsApp-chatbot met Google Calendar-integratie.",
+    "steps": [
+      {
+        "title": "Opzet",
+        "text": "Installeer Next.js met TypeScript en configureer je omgeving met OpenAI, Google en Meta (WhatsApp Business) API-sleutels."
+      },
+      {
+        "title": "Webhook & WhatsApp-koppeling",
+        "text": "Ontvang en verwerk inkomende WhatsApp-berichten via een webhook en stuur antwoorden terug via de officiële API."
+      },
+      {
+        "title": "AI-integratie",
+        "text": "Gebruik OpenAI om natuurlijke taal van gebruikers te begrijpen en om te zetten in intenties zoals boeken, wijzigen of annuleren van afspraken."
+      },
+      {
+        "title": "Google Calendar-integratie",
+        "text": "Koppel de intentie van de gebruiker aan concrete acties in een Google Calendar. Beheer dubbele boekingen, datumselectie en bevestiging."
+      },
+      {
+        "title": "Afwerking & Debugging",
+        "text": "Zorg voor foutafhandeling, logging en optimalisatie van de gebruikerservaring met duidelijke feedback via WhatsApp."
+      }
+    ]
+  },
+  "technologies": ["Next.js", "TypeScript", "OpenAI", "Google Calendar API", "WhatsApp Business API", "Ngrok"],
+  "gallery": []
+}
