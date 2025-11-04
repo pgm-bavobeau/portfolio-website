@@ -1,0 +1,23 @@
+{
+  "id": "kinehuis-gent",
+  "title": "Kinehuis Gent",
+  "description": "Een website voor de kine praktijk Kinehuis in Gent",
+  "badges": ["Wordpress", "Elementor"],
+  "links": {
+    "github": "",
+    "live": "https://kinehuisgent.com/"
+  },
+  "thumbnail": "",
+  "process": {
+    "title": "",
+    "text": "",
+    "steps": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "technologies": ["Wordpress", "Elementor"],
+  "gallery": []
+}

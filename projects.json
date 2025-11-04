@@ -147,5 +147,12 @@
     "description": "Een chatbot waarmee klanten via WhatsApp afspraken kunnen boeken, wijzigen of annuleren, rechtstreeks gekoppeld aan één Google Calendar.",
     "thumb": "",
     "badges": ["AI", "Next.js", "TypeScript", "Google Calendar  API", "WhatsApp Business API"]
+  }, 
+  {
+    "id": "kinehuis-gent",
+    "title": "Kinehuis Gent",
+    "description": "Een website voor de kine praktijk Kinehuis in Gent",
+    "thumb": "",
+    "badges": ["Wordpress", "Elementor"]
   }
 ]
